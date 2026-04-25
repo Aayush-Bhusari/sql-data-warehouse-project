@@ -6,7 +6,7 @@ An end-to-end data engineering project that builds a SQL Server data warehouse f
 
 ## Overview
 
-Two source systems, CRM and ERP, provide raw CSV data that is ingested, cleaned, and transformed into a structured data model. The final output is a set of dimension and fact tables that power the dashboard below.
+Two source systems, CRM and ERP, provide raw CSV data across 6 source tables and over 115,000 raw records. The data is ingested, cleaned, and transformed into a structured data model. The final fact table contains 79,177 sales transactions spanning from 2010 to 2014, linked to 18,484 unique customers across 6 countries and 295 active products across 3 categories.
 
 ---
 
